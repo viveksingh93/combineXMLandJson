@@ -1,0 +1,6 @@
+@combineXMLandJson_HostAddress = http://localhost:5128
+
+GET {{combineXMLandJson_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
