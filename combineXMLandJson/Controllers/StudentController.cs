@@ -21,8 +21,6 @@ namespace combineXMLandJson.Controllers
                     Roll = "100" + 1,
                 });
             }
-        
-        
         }
         
         [HttpGet("get.{format}"), FormatFilter]
